@@ -16,4 +16,10 @@ Additionally, we are learning team collaboration techniques and exploring new pr
 We have created a web design using CSS to display all subjects on the main page. The screenshot above shows how the page looks. The images and subject information are retrieved from a MySQL database running on a local XAMPP server. 
 We built a PHP-based API (using CHAT-GPT, we don't know about PHP) that handles GET requests to obtain the name, professor, description, and images from the database. We learned how to use Postman to test various API methods, including GET, POST, and DELETE.
 
-Our current goal is to present this project in class, and we plan to enable access over the local network so that our classmates can test the webpage during the presentation. Throughout this process, we have been learning about the structure of a typical web application, which involves a frontend, an API for handling requests, and a backend database. We are also focusing on teamwork and gaining familiarity with new programming languages and frameworks. While we are not yet at a junior developer level, our primary objective is to deepen our understanding of these concepts and technologies.
+Our current goal is to present this project in class, and we plan to enable access over the local network so that our classmates can test the webpage during the presentation. 
+Throughout this process, we have been learning about the structure of a typical web application, which involves a frontend, an API for handling requests, and a backend database. 
+We are also focusing on teamwork and gaining familiarity with new programming languages and frameworks. While we are not yet at a junior developer level, our primary objective is to deepen our understanding of these concepts and technologies.
+
+
+https://github.com/user-attachments/assets/2a524d6b-0ac3-4f22-9cf4-5bfb719c4676
+

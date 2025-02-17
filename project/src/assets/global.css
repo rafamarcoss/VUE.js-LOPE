@@ -1,56 +1,66 @@
 body {
-    background-color: white;
-    font-family: Arial, sans-serif;
-    padding: 0%;
-    margin: 0%;
-  }
-
-#header{
-  display:flex;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-#img img{
-
-  margin-top: 7%;
-  margin-left: 5%;
-  margin-bottom: 5%;
-  width: 50%;
-  height: 70%;
-  
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #c3cfff;
+  background: linear-gradient(0deg, #68abee, #0052ce);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-#texto h1{
-  margin: 10%;
-  width: 100%;
-  margin-top: 30%;
-  margin-left: 0%;
-  color: #1F2A55
+img {
+  width: 15rem;
+  height: auto;
+  border-radius: 10%;
 }
-#texto p{
+
+#texto {
+  flex-grow: 1;
+  padding: 2rem 17rem 1rem 3rem;
+  text-align: center;
+}
+
+#texto h1 {
+  margin: 0.8rem;
+  color: #1F2A55;
+}
+
+#texto p {
+  margin: 0.8rem;
   font-weight: bold;
-  color: #1F2A55
+  color: #1F2A55;
+}
+
+#vacio {
+  width: 10rem;
+  height: auto;
 }
 
 #nav {
   position: sticky;
   top: 0;
   background-color: #1F2A55;
+  text-align: center;
+  z-index: 1000;
 }
 
 #nav ul {
   display: flex;
+  justify-content: center;
   list-style: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
-  text-align: center;
-  padding: 1%;
-  padding-left: 4%;
 }
 
 #nav li {
-  margin: 6%;
-  margin-top:2%;
-  margin-bottom: 2%;
+  margin: 0 15px;
   font-weight: bold;
   font-size: 1.2em;
 }
@@ -58,11 +68,59 @@ body {
 #nav a {
   text-decoration: none;
   color: white;
-  position: relative;
+  padding: 0.6rem;
+  border-radius: 5rem;
 }
 
 #nav a:hover {
   transform: scale(1.2);
   text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+  background-color: #33458d;
+  box-shadow: #33458d 0px 0px 10px;
+  border-radius: 5rem;
+  padding: 0.6rem;
+  transition-duration: 0.5s;
+}
 
+#home {
+  color: #1F2A55;
+  background-color: rgb(224, 238, 255);
+  text-align: center;
+  padding: 1rem;
+}
+
+.profesor {
+  color: #c3cfff;
+}
+
+.descripcion {
+  color: #c3cfff;
+}
+
+#cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.card {
+  background-color: #68abee;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+h2 {
+  color: #1F2A55;
+  margin-top: 10px;
 }

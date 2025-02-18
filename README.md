@@ -20,6 +20,8 @@ Our current goal is to present this project in class, and we plan to enable acce
 Throughout this process, we have been learning about the structure of a typical web application, which involves a frontend, an API for handling requests, and a backend database. 
 We are also focusing on teamwork and gaining familiarity with new programming languages and frameworks. While we are not yet at a junior developer level, our primary objective is to deepen our understanding of these concepts and technologies.
 
+We will now use Ngrok to share our projects with our teammates. This tool allows us to expose our local server to the internet, providing a public link to our localhost. As long as the project is running on our device, others can access it remotely through this link.
+In the following video, we demonstrate how the web application functions, review the database table, and showcase the project's key files: App.vue, Home.vue, Lunes.vue, and main.js.
 
-https://github.com/user-attachments/assets/2a524d6b-0ac3-4f22-9cf4-5bfb719c4676
+https://github.com/user-attachments/assets/026f5f4f-1de8-464e-bb17-a72138346c8a
 
